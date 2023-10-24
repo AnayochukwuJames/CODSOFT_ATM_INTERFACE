@@ -1,6 +1,6 @@
 package com.example.atminterface;
 
-public class BankServiceImp implements BankAccountService {
+public class BankAccountServiceImp implements BankAccountService {
     @Override
     public void deposit(BankAccount account, double amount) {
         if (amount > 0) {
